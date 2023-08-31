@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "node16",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "isolatedModules": true,
+    "target": "ES2022",
+    "declaration": false,
+    "strict": true,
+    "noImplicitReturns": true,
+    "useUnknownInCatchVariables": false,
+    "strictBindCallApply": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "lib": [
+      "ES2023"
+    ],
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "strictPropertyInitialization": true,
+    "allowImportingTsExtensions": true
+  }
+}
